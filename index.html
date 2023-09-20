@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="Menu">
+      <h1>Bienvenido a la Licoreria</h1>
+      <ul>
+        <li onclick="comprar(jaggermeifter)">
+          Jaggermeifter <img src="images/Jagger-black.png" alt="" />
+        </li>
+        <li onclick="comprar(pampero)">
+          Ron Pampero <img src="images/Ron.png" alt="" />
+        </li>
+        <li onclick="comprar(blueLabel)">
+          Jw Blue Label <img src="images/JWPlatinum.png" alt="" />
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Stock:</h2>
+      <ul id="stock"></ul>
+      <h2 id="dinero">Dinero Disponible: <span></span></h2>
+    </section>
+    <script src="carrito.js"></script>
+  </body>
+</html>

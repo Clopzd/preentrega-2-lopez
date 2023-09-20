@@ -1,0 +1,36 @@
+section {
+  background-color: beige;
+  border: 1px solid black;
+  color: black;
+  padding: 20px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  text-align: center;
+  color: brown;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 50px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+ul li:hover {
+  color: red;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  background-color: black;
+}
+
+#stock li {
+  display: inline-block;
+}
